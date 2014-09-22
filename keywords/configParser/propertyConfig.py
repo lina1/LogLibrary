@@ -20,6 +20,7 @@ class PropertyConfig():
         self._add_section(file_name)
 
         c = ConfigParser.ConfigParser()
+        c.optionxform = str
         c.read(file_name)
 
         c.set("default", key, value)
@@ -40,6 +41,7 @@ class PropertyConfig():
         self._add_section(file_name)
 
         c = ConfigParser.ConfigParser()
+        c.optionxform = str
         c.read(file_name)
 
         c.remove_option("default", key)
@@ -62,4 +64,5 @@ class PropertyConfig():
         fp = open(file_name, "w")
         fp.write("\n".join(conf_list))
         fp.close()
+
 

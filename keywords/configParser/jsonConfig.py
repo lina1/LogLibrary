@@ -50,16 +50,3 @@ class JsonConfig():
 
             demjson.encode_to_file(to_file, to_json_list, overwrite=True)
 
-
-
-
-
-    # def insert_json(self, json):
-
-
-# v = json.load(file("E:\\robotframework\\resources\\adam_channels.conf"))
-# print type(v)
-# jc = JsonConfig()
-# jc.remove_json_by_channel_id("24711", "E:\\robotframework\\resources\\adam_channels.conf")
-# jc.remove_json("E:\\robotframework\\basic.json","E:\\robotframework\\resources\\adam_channels.conf")
-# jc.insert_json("E:\\robotframework\\basic.json","E:\\robotframework\\resources\\adam_channels.conf")
