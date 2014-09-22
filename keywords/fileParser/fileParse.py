@@ -6,21 +6,7 @@ import os
 
 class FileParse():
 
-    log_list = ["FCACCESS",
-                    "NASTREAM",
-                    "APACHE",
-                    "FTP",
-                    "P2SPACCESS",
-                    "FMSACCESS",
-                    "FMS_ORIGIN",
-                    "RECEIPT",
-                    "TVIE",
-                    "LIGHTTPD",
-                    "TTA",
-                    "AMWAY",
-                    "HUAN",
-                    "pconline",
-                    "fcAccess.ext"]
+    log_list = ["APACHE", "FTP"]
 
     def __init__(self):
 
